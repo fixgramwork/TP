@@ -6,12 +6,12 @@ import Contact from './Contact.js';
 import About from './About.js';
 import Login from './Login.js';
 import AVG from './AVG.js';
-
-
-import './App.css';
+import Signup from './signup.js';
+import "./App.css";
 
 function App() {
   return (
+
     <BrowserRouter>
       <Header />
       <Routes>
@@ -20,8 +20,10 @@ function App() {
         <Route path='About/' element={<About />}></Route>
         <Route path='Login/' element={<Login />}></Route>
         <Route path='AVG/' element={<AVG />}></Route>
+        <Route path='Signup/' element={<Signup />}></Route>
       </Routes>
     </BrowserRouter>
+
   );
 }
 

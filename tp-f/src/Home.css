@@ -1,4 +1,9 @@
 .Home-back {
-    height: 3000px;
+    padding-top: 100px;
+    text-align: center;
+    height: 100vh;
+}
 
+.Home-back p {
+    margin-top: 30px;
 }

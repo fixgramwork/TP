@@ -1,5 +1,85 @@
-.Login-bar {
-    margin: auto;
+.login-container {
+    width: 400px;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
+    margin: auto;
+}
 
+.login-title {
+    font-size: 28px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.login-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.login-button:hover {
+    background-color: #45a049;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.success-message {
+    color: green;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+#SUG {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+#SUG a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+#SUG a:hover {
+    text-decoration: underline;
 }

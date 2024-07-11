@@ -2,8 +2,8 @@ import React from "react";
 import { useLocation } from 'react-router-dom';
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
+import './Header.css';
 
-import "./Header.css";
 
 const Header = () => {
     const [Homecss, setHomecss] = useState("Header-link");
@@ -55,9 +55,9 @@ const Header = () => {
                 </h1>
 
                 <Link to="/AVG" className={AVGcss}>AVG</Link>
-                <Link to="/contact" className={Contactcss}>Contact</Link>
-                <Link to="/about" className={Aboutcss}>About</Link>
-                <Link to="/login" className={Logincss}>Login</Link>
+                <Link to="/contact" className={Contactcss}>PHOTO</Link>
+                <Link to="/about" className={Aboutcss}>ABOUT</Link>
+                <Link to="/login" className={Logincss} id="LOGIN">Login</Link>
             </span>
         </div>
     );

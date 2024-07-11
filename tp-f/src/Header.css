@@ -2,30 +2,36 @@
     display: flex;
     justify-content: flex-start;
     font-size: 20px;
-    background-color: aqua;
+    background-color: #FEFEFE;
     height: 60px;
     align-items: center;
-    position: fixed;
+    position: 10px;
     width: 100%;
+    box-shadow: 0px 3px 3px black;
 }
 
 
 .Header-link {
     text-decoration: none;
-    color: red;
-    margin-right: 40px;
+    color: rgba(0, 0, 0, 0.701);
+    margin-right: 100px;
 
 }
 
 .Header-checked {
-    margin-right: 20px;
+    margin-right: 100px;
     text-decoration: none;
-    color: red;
-    background-color: brown;
+    color: black;
+    background-color: rgb(242, 255, 0);
+    border-radius: 20px;
 }
 
 .TPTP {
     margin-left: 30px;
     margin-right: 20px;
     display: inline;
+}
+
+#LOGIN {
+    margin-left: 530px;
 }

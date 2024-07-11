@@ -2,12 +2,11 @@ import React from 'react';
 
 import "./Home.css";
 function Home() {
-  
+
   return (
     <div className='Home-back'>
-      <br /><br />
-      <h1>Home Page</h1>
-      <p>Welcome to our website!</p>
+      <h1>Save Your Precious Money<br />Because Gold Is Time</h1>
+      <p>Efficient Consumption!</p>
     </div>
   );
 }
