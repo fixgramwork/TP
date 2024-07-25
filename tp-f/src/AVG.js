@@ -18,6 +18,7 @@ function AVG() {
                 </div>
                 <button type='submit' className="custom-btn btn-8"><span>Readme more</span></button>
             </form>
+            <button className="custom-btn btn-8">사진 올리기</button>
         </div>
     );
 }
